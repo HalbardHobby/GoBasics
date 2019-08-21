@@ -35,9 +35,13 @@ var (
 )
 
 // The expression T(v) converts value v to type T
+// Type can be infered from the value
 var i = 42
 var f = float32(i)
 var u = uint(f)
+
+// Constants are declared with the 'const' keyword
+const Pi = 3.1416
 
 func main() {
 	// Variables declared without an explicit initial value
